@@ -1,5 +1,5 @@
 import React from "react";
-import { FcReuse } from "react-icons/fc";
+import { FcSportsMode } from "react-icons/fc";
 import * as S from "./styles";
 import { Link } from "react-router-dom";
 
@@ -8,7 +8,7 @@ const Menu = () => {
     <S.Cabecalho>
       <picture>
         <Link to="/">
-          <FcReuse />
+          <FcSportsMode />
         </Link>
       </picture>
       <nav>
