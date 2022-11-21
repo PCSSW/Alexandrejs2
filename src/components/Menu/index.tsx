@@ -1,4 +1,4 @@
-import { FcReuse } from "react-icons/fc";
+import { FcSportsMode } from "react-icons/fc";
 import { GrLogout } from "react-icons/gr";
 import * as S from "./styles";
 import { Link, useNavigate } from "react-router-dom";
@@ -14,7 +14,7 @@ const Menu = () => {
     <S.Cabecalho>
       <picture>
         <Link to="/">
-          <FcReuse />
+          <FcSportsMode />
         </Link>
       </picture>
       <nav>
